@@ -8,6 +8,8 @@ Change the LinkedStack implemented in class to a generic LinkedStack using a tem
 Compress the project folder excluding git and executable files and submit.
 Please refer to the attached main.cpp and use the class name. (Do not modify it!)
 
+![Example](/Assignment1/Assignment1.JPG)
+
 Print your name and student number on the first line of the print screen (see attached photo).
 
 ## Assignment2

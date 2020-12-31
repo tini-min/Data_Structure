@@ -12,6 +12,8 @@ Please refer to the attached main.cpp and use the class name. (Do not modify it!
 
 Print your name and student number on the first line of the print screen (see attached photo).
 
+![Result](/Assignment1/Result.jpg)
+
 ## Assignment2
 Complete a program by referring to the file.
 i.e. implement an appropriate binary tree

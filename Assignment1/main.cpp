@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	cout << "201511118" << endl << endl;
+	cout << "201511118 SeongHun Min" << endl << endl;
 
 	LinkedStack<char> stack1;
 	stack1.push('A');

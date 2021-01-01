@@ -62,6 +62,7 @@ If you want to see the code what I made, just check the attached file.
 
 ## Assignment2
 Complete a program by referring to the file.  
+<h1>Direction</h1>
 <embed src = "/Assignment2/Assignment2.pdf" type = "application/pdf" />
 i.e. implement an appropriate binary tree
 ## Assignment3

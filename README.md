@@ -55,6 +55,7 @@ __Desired Result__
 Print your name and student number on the first line of the print screen (see attached photo, "Result").
 
 __Result__
+
 ![Result](/Assignment1/Result.jpg)
 
 If you want to see the code what I made, just check the attached file.
@@ -69,9 +70,11 @@ Write a program that performs the following operations on the given input file a
 You should implement a binary tree for this problem
 
 __Example__
+
 ![Example](/Assignment2/Example.jpg)
 
 __Result__
+
 |no|fix.in|fix.out|
 |:---|---:|---:|
 |number of equation|6||
@@ -103,5 +106,5 @@ Since "heap sort" has time complexity at most O(n log n), I implemented heap sor
 
 > If you want to see the code what I made, just check the attached file. <br/><br/> [sortedlists_201511118_민성훈.cpp](/Assignment3/sortedlists_201511118_민성훈.cpp)
 
-But, since m sequence are given sorted, we can implement the sort program with O(m log n). (Of course $$m \leq n$$)
+But, since m sequence are given sorted, we can implement the sort program with O(m log n). (Of course m <= n)  
 I`ll implement it later.

@@ -61,11 +61,30 @@ If you want to see the code what I made, just check the attached file.
 [LinkedStack.h](/Assignment1/LinkedStack.h)
 
 ## Assignment2
-Complete a program by referring to the file.  
-<iframe style = "width:100%; height:100%;"
-src = "/Assignment2/Assignment2.pdf">
-</iframe>
-i.e. implement an appropriate binary tree
+Write a program that performs the following operations on the given input file and outputs it.
+1. Print the formula displayed in prefix or postfix format in infix format.
+2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.
+You should implement a binary tree for this problem
+
+![Example](/Assignment2/Example.jpg)
+
+Result
+|no		|fix.in	|fix.out	|
+|:---		|---:	|---:	|
+|no of equation	|6	|	|
+|1		|I + * 2 - a 1 * 3 b E|((2*(a-1))+(3*b))|
+|		|a 7 b 8 E|36	|
+|2		|I * / 2 - 3 b / 9 - 7 3 E|((2/(3-b))*(9/(7-3)))|
+|		|b 7 E|-1|
+|3		|P 2 a 1 - * 3 b * / E|((2*(a-1))/(3*b))|
+|		|b 2 a -1 E|-1|
+|4		|P c 3 * 4 - a 5 * * E|(((c*3)-4)*(a*5))|
+|		|c 2 a 4 E |40|
+|5		|I a E|a|
+|		|a 5 E|5|
+|6		|P b E|b|
+|		|b 8 E|8|
+
 ## Assignment3
 Complete a program by referring to the file.   
 i.e. make a sorting program with O(n log n)

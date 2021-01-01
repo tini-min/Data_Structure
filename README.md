@@ -1,7 +1,7 @@
 # Data Structure Assignments
-* [Assignment1](##Assignment1)
-* [Assignment2](##Assignment2)
-* [Assignment3](##Assignment3)
+* [Assignment1](#assignment1)
+* [Assignment2](#assignment2)
+* [Assignment3](#assignment3)
 
 ## Assignment1
 Change the LinkedStack implemented in class to a generic LinkedStack using a template.   

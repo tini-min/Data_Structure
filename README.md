@@ -99,11 +99,10 @@ Given m sequences sorted in ascending order, write an efficient program that com
 __Example__
 ![Example](/Assignment3/Example.jpg)
 
-Since "heap sort" is has time complexity at most O(n log n), I implemented heap sort.  
+Since "heap sort" has time complexity at most O(n log n), I implemented heap sort.  
 
-If you want to see the code what I made, just check the attached file.
-
-[O(n log n)](/Assignment3/sortedlists_201511118_민성훈.cpp)
+> If you want to see the code what I made, just check the attached file.
+> [O(n log n)](/Assignment3/sortedlists_201511118_민성훈.cpp)
 
 But, since m sequence are sorted, we can implement the sort program with O(m log n).  
 I`ll implement it later.

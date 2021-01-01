@@ -61,12 +61,8 @@ If you want to see the code what I made, just check the attached file.
 [LinkedStack.h](/Assignment1/LinkedStack.h)
 
 ## Assignment2
-Complete a program by referring to the file.   
-<object data="/Assignment2/Assignment2.pdf" type="application/pdf">
-       <embed src="/Assignment2/Assignment2.pdf">
-           This browser does not support PDFs. Please download the PDF to view it: <a href=""/Assignment2/Assignment2.pdf"">Download PDF</a>.</p>
-       </embed>
-</object>
+Complete a program by referring to the file.  
+<embed src = "/Assignment2/Assignment2.pdf" type = "application/pdf" />
 i.e. implement an appropriate binary tree
 ## Assignment3
 Complete a program by referring to the file.   

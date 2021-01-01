@@ -63,14 +63,15 @@ If you want to see the code what I made, just check the attached file.
 ## Assignment2
 Write a program that performs the following operations on the given input file and outputs it.
 1. Print the formula displayed in prefix or postfix format in infix format.
-2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.  
+2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.
+
 You should implement a binary tree for this problem
 
 ![Example](/Assignment2/Example.jpg)
 
 __Result__
 |no		|fix.in	|fix.out	|
-|:---:		|---:	|---:	|
+|:---		|---:	|---:	|
 |number of equation	|6	|	|
 |1		|I + * 2 - a 1 * 3 b E|((2*(a-1))+(3*b))|
 |		|a 7 b 8 E|36	|

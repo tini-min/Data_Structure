@@ -52,8 +52,9 @@ __Desired Result__
 
 ![Example](/Assignment1/Assignment1.JPG)
 
-Print your name and student number on the first line of the print screen (see attached photo).
+Print your name and student number on the first line of the print screen (see attached photo, "Result").
 
+__Result__
 ![Result](/Assignment1/Result.jpg)
 
 If you want to see the code what I made, just check the attached file.
@@ -63,33 +64,46 @@ If you want to see the code what I made, just check the attached file.
 ## Assignment2
 Write a program that performs the following operations on the given input file and outputs it.
 1. Print the formula displayed in prefix or postfix format in infix format.
-2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.
+2. Calculate the formula for the given variable (a-z). However, the answer should be expressed as a rounded integer.
 
 You should implement a binary tree for this problem
 
+__Example__
 ![Example](/Assignment2/Example.jpg)
 
 __Result__
-|no		|fix.in	|fix.out	|
-|:---		|---:	|---:	|
-|number of equation	|6	|	|
-|1		|I + * 2 - a 1 * 3 b E|((2*(a-1))+(3*b))|
-|		|a 7 b 8 E|36	|
-|2		|I * / 2 - 3 b / 9 - 7 3 E|((2/(3-b))*(9/(7-3)))|
-|		|b 7 E|-1|
-|3		|P 2 a 1 - * 3 b * / E|((2*(a-1))/(3*b))|
-|		|b 2 a -1 E|-1|
-|4		|P c 3 * 4 - a 5 * * E|(((c*3)-4)*(a*5))|
-|		|c 2 a 4 E |40|
-|5		|I a E|a|
-|		|a 5 E|5|
-|6		|P b E|b|
-|		|b 8 E|8|
+|no|fix.in|fix.out|
+|:---|---:|---:|
+|number of equation|6||
+|1|I + * 2 - a 1 * 3 b E|((2*(a-1))+(3*b))|
+||a 7 b 8 E|36|
+|2|I * / 2 - 3 b / 9 - 7 3 E|((2/(3-b))*(9/(7-3)))|
+||b 7 E|-1|
+|3|P 2 a 1 - * 3 b * / E|((2*(a-1))/(3*b))|
+||b 2 a -1 E|-1|
+|4|P c 3 * 4 - a 5 * * E|(((c*3)-4)*(a*5))|
+||c 2 a 4 E |40|
+|5|I a E|a|
+||a 5 E|5|
+|6|P b E|b|
+||b 8 E|8|
 
 If you want to see the code what I made, just check the attached file.
 
 [fix_201511118_민성훈.cpp](/Assignment2/fix_201511118_민성훈.cpp)
 
 ## Assignment3
-Complete a program by referring to the file.   
-i.e. make a sorting program with O(n log n)
+Given m sequences sorted in ascending order, write an efficient program that combines these sequences and outputs one sorted sequence.  
+> ps. Efficient program implies program with at most O(n log n) at this assignment
+
+__Example__
+![Example](/Assignment3/Example.jpg)
+
+Since "heap sort" is has time complexity at most O(n log n), I implemented heap sort.  
+
+If you want to see the code what I made, just check the attached file.
+
+[O(n log n)](/Assignment3/sortedlists_201511118_민성훈.cpp)
+
+But, since m sequence are sorted, we can implement the sort program with O(m log n).  
+I`ll implement it later.

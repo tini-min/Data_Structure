@@ -8,7 +8,7 @@ Change the LinkedStack implemented in class to a generic LinkedStack using a tem
 Compress the project folder excluding git and executable files and submit.
 Please refer to the attached main.cpp and use the class name. (Do not modify it!)
 
-Given Code (main.cpp)
+__Given Code (main.cpp)__
 ```c++
 #include <iostream>
 #include "LinkedStack.h"
@@ -48,7 +48,7 @@ int main()
 	}
 }
 ```
-Desired Result
+__Desired Result__
 
 ![Example](/Assignment1/Assignment1.JPG)
 
@@ -63,15 +63,15 @@ If you want to see the code what I made, just check the attached file.
 ## Assignment2
 Write a program that performs the following operations on the given input file and outputs it.
 1. Print the formula displayed in prefix or postfix format in infix format.
-2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.
+2. Calculate the formula for the given variable (a-z). However, the correct answer is expressed as a rounded integer.  
 You should implement a binary tree for this problem
 
 ![Example](/Assignment2/Example.jpg)
 
-Result
+__Result__
 |no		|fix.in	|fix.out	|
-|:---		|---:	|---:	|
-|no of equation	|6	|	|
+|:---:		|---:	|---:	|
+|number of equation	|6	|	|
 |1		|I + * 2 - a 1 * 3 b E|((2*(a-1))+(3*b))|
 |		|a 7 b 8 E|36	|
 |2		|I * / 2 - 3 b / 9 - 7 3 E|((2/(3-b))*(9/(7-3)))|
@@ -84,6 +84,10 @@ Result
 |		|a 5 E|5|
 |6		|P b E|b|
 |		|b 8 E|8|
+
+If you want to see the code what I made, just check the attached file.
+
+[fix_201511118_민성훈.cpp](/Assignment2/fix_201511118_민성훈.cpp)
 
 ## Assignment3
 Complete a program by referring to the file.   

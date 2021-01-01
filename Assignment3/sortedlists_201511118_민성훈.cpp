@@ -25,7 +25,7 @@ public :
         }
     }
     int removeMin() {
-        int Min = v.at(1);
+        int Min = min()
         v.at(1) = v.at(n); n--; v.pop_back();
         int ind = 1;
         bool flag;
@@ -66,7 +66,7 @@ public :
 int main() {
     ifstream inFile;
     ofstream outFile;
-    inFile.open("list.in");
+    inFile.open("lists.in");
     outFile.open("list.out");
     Heap h;
     string st;

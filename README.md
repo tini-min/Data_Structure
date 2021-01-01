@@ -100,6 +100,7 @@ Given m sequences sorted in ascending order, write an efficient program that com
 > ps. Efficient program implies program with at most O(n log n) at this assignment
 
 __Example__
+
 ![Example](/Assignment3/Example.jpg)
 
 Since "heap sort" has time complexity at most O(n log n), I implemented heap sort.  

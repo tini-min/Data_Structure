@@ -1,6 +1,6 @@
 # Data Structure Assignments
 
-These are the assignments that I solved while taking data structure at Pusan National University.
+These are the assignments that I solved while taking Data Structure at Pusan National University.
 
 * [Assignment1](#assignment1)
 * [Assignment2](#assignment2)
